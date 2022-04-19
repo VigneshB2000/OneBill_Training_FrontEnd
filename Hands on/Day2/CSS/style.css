@@ -1,0 +1,49 @@
+.class1 {
+    background-color: blanchedalmond;
+    color: crimson;
+    font-size: large;
+    font-family: monospace;
+}
+
+.class2 {
+    background-color: cornflowerblue;
+    color: hotpink;
+    font-size: small;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.class3 {
+    background-color: palegreen;
+    color: blueviolet;
+    font-size: larger;
+    font-family: cursive;
+}
+
+#id1 {
+    background-color: blanchedalmond;
+    color: crimson;
+    font-size: large;
+    font-family: monospace;
+}
+
+#id2 {
+    background-color: cornflowerblue;
+    color: hotpink;
+    font-size: small;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#id3 {
+    background-color: palegreen;
+    color: blueviolet;
+    font-size: larger;
+    font-family: cursive;
+}
+
+h1:hover {
+    color: firebrick;
+}
+
+a:visited {
+    color: goldenrod;
+}

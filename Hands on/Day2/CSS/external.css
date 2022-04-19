@@ -1,0 +1,22 @@
+p {
+    color: rgb(194, 80, 137);
+}
+
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+
+* {
+    font-family: monospace;
+}
+
+img[alt] {
+    height: auto;
+    width: 300px;
+}
+
+a[title] {
+    font-size: large;
+    font-family: cursive;
+}

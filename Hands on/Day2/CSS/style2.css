@@ -1,0 +1,9 @@
+.imgbg {
+    background-image: url(https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?cs=srgb&dl=pexels-pixabay-259915.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tab {
+    border-collapse: collapse;
+}
