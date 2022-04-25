@@ -1,0 +1,77 @@
+h1 {
+    text-align: center;
+    box-shadow: 20px 0px 20px red;
+    border-radius: 70%;
+    width: 200px;
+    padding: 20px;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
+nav {
+    text-align: center;
+    box-shadow: 0px 0px 30px grey;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: rgb(28, 93, 212);
+    position: sticky;
+    top: 20px;
+    border-radius: 20px;
+}
+
+a {
+    box-sizing: border-box;
+    padding: 70px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+.home {
+    padding: 20px;
+}
+
+.home:hover {
+    color: red;
+    background-color: peru;
+}
+
+img {
+    border-radius: 70%;
+    width: 850px;
+    margin-top: 100px;
+    box-shadow: 0 0 30px peru;
+}
+
+p {
+    text-align: justify;
+    width: 600px;
+    float: right;
+    border-radius: 50%;
+    margin-right: 100px;
+    margin-left: 600px;
+    margin-top: -500px;
+    box-shadow: 0 0 30px peru;
+    background-color: rgb(53, 21, 85);
+    color: whitesmoke;
+    padding: 95px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+footer {
+    margin-top: 100px;
+    box-shadow: 20px 0px 20px cornflowerblue;
+    padding: 10px;
+    background-color: rgb(28, 93, 212);
+}
+
+footer div {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
