@@ -1,0 +1,18 @@
+1.Primitive vs Reference types 
+
+Primitive data types are: numbers, strings, booleans, undefined, and null (also symbols so check 
+those out). Basically, if it’s storing a simple piece of data, it’s stored simply. When you set a 
+variable with this type, the variable is that exact value and that’s all. If you change that value, 
+the variable simply becomes a new value.That means the two reference types are objects and arrays 
+(technically one, since arrays are objects). When you create an object, that value is not directly 
+assigned to the variable. Instead, a reference to that value is what gets set. All that variable 
+knows about is the location of the object in memory, not the object itself.
+___________________________________________________________________________________________________
+
+2.Difference bw == and ===
+Double equals (==) is a comparison operator, which transforms the operands having the same type 
+before comparison.=== (Triple equals) is a strict equality comparison operator in JavaScript, 
+which returns false for the values which are not of a similar type. This operator performs type 
+casting for equality. If we compare 2 with “2” using ===, then it will return a false value.
+___________________________________________________________________________________________________
+

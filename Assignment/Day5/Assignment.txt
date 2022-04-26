@@ -1,0 +1,29 @@
+Working of JavaScript:
+
+Every time we run a JavaScript program, our code is first received by the "parser" inside the JS 
+engine. The parser's job is to check the JavaScript code for syntactic errors in line by line 
+manner because JavaScript is an interpretive scripting language, so whenever an error is detected 
+by the parser, it throws a kind of error and stops execution of the code.
+
+Once the parser checks all JavaScript codes and gets satisfied that there are no mistakes/errors 
+in the code, it creates the data structure called AST (it stands for Abstract Syntax Tree).
+
+Once the Abstract Syntax Tree is created by the parser, the JavaScript engine converts the 
+JavaScript code into the machine code (or in the language that machine can understand).
+
+When the program written in the JavaScript gets converted in the machine language (or in byte code)
+, the converted code is sent to the system for execution, and finally, that byte code run by the 
+system/engine.
+___________________________________________________________________________________________________
+
+Mutable and Immutable in Javascript:
+
+Mutable is a type of variable that can be changed. In JavaScript, only objects and arrays are 
+mutable, not primitive values.
+A mutable object is an object whose state can be modified after it is created.
+Immutables are the objects whose state cannot be changed once the object is created.
+
+
+
+
+

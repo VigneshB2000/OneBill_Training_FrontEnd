@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="demo">This is about DOM</h1>
+    <p class="ptag">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid ullam sequi delectus asperiores. Minus ullam nemo quas quae consequatur nam architecto eveniet laborum. Nobis neque, dolor facere architecto suscipit distinctio ipsum nemo aperiam provident
+        sunt qui voluptates vero, expedita sed consectetur. Neque ex beatae sit veniam vel cupiditate quod illo, asperiores quisquam cumque illum similique hic impedit commodi tempore. Ut magnam magni qui autem quos temporibus assumenda doloribus hic
+        in aliquid esse consequatur nam libero facilis minima itaque enim doloremque laboriosam voluptatibus quod odit, sapiente voluptatum soluta dolorum. Saepe beatae, optio et dolor hic doloremque similique! Odio, nihil consequatur!
+    </p>
+    <button onClick='document.getElementById("demo").innerHTML="Hello Peter"'>
+      Tap me
+    </button>
+    <script>
+        const element = document.getElementById("demo");
+        element.innerText = "Hello JavaScript";
+        element.style.backgroundColor = "hotpink";
+
+        let pElement = document.createElement("p");
+        pElement.innerHTML = "This is my first javascript element.";
+        document.body.appendChild(pElement);
+
+        pElement.insertAdjacentHTML(
+            "afterend",
+            "<p>Dinesh is a very gud man</p>"
+        );
+        console.log(document);
+
+        const h1Element = document.querySelector("h1");
+        console.log("h1 element :", h1Element);
+
+        const pElements = document.querySelector("p");
+        console.log("p element :", pElements);
+    </script>
+</body>
+
+</html>
