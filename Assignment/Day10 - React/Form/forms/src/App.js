@@ -1,13 +1,13 @@
-import React from 'react'
-import Form from './components/Form'
+import React from "react";
+import routing from "./Routing";
 
 function App() {
   return (
     <div>
       <h1>Login Form</h1>
-      <Form />
+      {routing}
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
